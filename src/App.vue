@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CompA from '../javascript/src/components/CompA/CompA.vue';
+import CompA from './components/MainComp/CompA/CompA.vue';
 
 </script>
 

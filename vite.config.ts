@@ -10,8 +10,7 @@ export default defineConfig(() => {
     ],
     resolve: {
       alias: {
-        // Alias for core (OxPlatform front framework)
-        "@": fileURLToPath(new URL("./javascript/src", import.meta.url)),
+        "@": fileURLToPath(new URL("./src", import.meta.url)),
       },
     },
   }

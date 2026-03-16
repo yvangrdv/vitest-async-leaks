@@ -1,5 +1,5 @@
-import CompA from "@/components/MainComp/CompA/CompA.vue"
 import { shallowMount } from '@vue/test-utils'
+import CompA from "@/components/MainComp/CompA/CompA.vue"
 
 describe('CompA', () => {
   it('test', async () => {

@@ -1,3 +1,4 @@
+// Original tsconfig.json
 // {
 //   "files": [],
 //   "references": [
@@ -12,6 +13,8 @@
 //     }
 //   ]
 // }
+
+// Uncomment this to have EnvironmentTeardownError error in test result
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "include": ["src/**/__tests__/*", "env.d.ts"],
