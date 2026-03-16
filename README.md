@@ -10,6 +10,6 @@ npm install
 
 2 - 
 ```
-npx vitest run --no-file-parallelism --detect-async-leaks CompA
+npx vitest run --no-file-parallelism CompA
 ```
 The `--no-file-parallelism` is not mandatory to reproduce the leak.
